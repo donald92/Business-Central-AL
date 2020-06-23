@@ -5,12 +5,15 @@
             "type": "al",
             "request": "launch",
             "name": "Microsoft cloud sandbox",
-            "startupObjectId": 22,
+            "tenant": "CRMbc442905.onmicrosoft.com",
+            "startupObjectId": 23,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            
         }
     ]
 }
